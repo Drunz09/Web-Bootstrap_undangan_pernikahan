@@ -182,7 +182,8 @@ body {
 }
 
 .story span,
-.gallery span {
+.gallery span,
+.gifts span {
   text-transform: uppercase;
   color: #666;
   font-size: 0.9rem;
@@ -192,7 +193,9 @@ body {
 }
 
 .story h2,
-.gallery h2 {
+.gallery h2,
+.rsvp h2,
+.gifts h2 {
   color: var(--pink);
   font-family: "Allura", cursive;
   font-size: 5rem;
@@ -200,7 +203,9 @@ body {
 }
 
 .story p,
-.gallery p {
+.gallery p,
+.rsvp p,
+.gifts p {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -306,6 +311,61 @@ body {
 .gallery {
   background-color: #f5f5f5;
   padding-bottom: 6rem;
+}
+
+/* RSVP */
+.rsvp {
+  background-color: var(--bg);
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.rsvp h2 {
+  font-size: 4.5rem;
+}
+.rsvp p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+}
+.rsvp form label {
+  color: white;
+}
+.rsvp button {
+  background-color: var(--pink);
+  color: white;
+  border: 1px solid var(--pink);
+  margin-top: 23px;
+}
+.rsvp button:hover {
+  background-color: white;
+  color: var(--pink);
+}
+
+/* Gifts */
+.gifts {
+  background-color: #f5f5f5;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+/* footer */
+footer {
+  padding: 3rem;
+  background-color: var(--bg);
+  color: white;
+}
+footer a {
+  color: var(--pink);
+  font-weight: bold;
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
+}
+footer li {
+  list-style: none;
+  display: inline;
+  margin: 0.5rem;
 }
 
 /* Responsive Breakpoint */
